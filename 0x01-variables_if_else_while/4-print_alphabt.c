@@ -8,7 +8,7 @@ int main(void)
 {
 	char chr;
 
-	for (chr = 'a'; chr = 'z'; chr++)
+	for (chr = 'a'; chr <= 'z'; chr++)
 	{
 		if (chr != 'q' && chr != 'e')
 		{
