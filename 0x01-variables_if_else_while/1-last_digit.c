@@ -1,3 +1,4 @@
+#include<stdio.h>
 /**
 *main-printsthelastdigitsofarandomlygeneratednumber
 *andwhetheritisgraterthan5,lessthan6,or0.
