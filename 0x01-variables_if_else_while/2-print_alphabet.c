@@ -1,19 +1,17 @@
 #include <stdio.h>
+
 /**
- * main - Entrypoint
- *
- * Return:always0(success)
- */
+* main - prints the alphabet in lowercase
+* Return: 0 after successful execution
+*/
 int main(void)
 {
-	char c;
+	char chr;
 
-	c = 'a';
-	while
-		(c <= 'z') {
-			putchar(c);
-			c++;
-		}
-	putchar("\n")
+	for (chr = 'a'; chr <= 'z'; chr++)
+	{
+		putchar(chr);
+	}
+	putchar('\n');
 	return (0);
 }
